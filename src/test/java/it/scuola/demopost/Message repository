@@ -1,0 +1,9 @@
+1 package it.scuola.demopost;
+2
+3 import
+org.springframework.data.jpa.repository.JpaRe
+pository;
+4
+5 public interface MessageRepository
+6 extends JpaRepository<Message, Long> {
+7 }
